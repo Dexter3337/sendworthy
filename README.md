@@ -40,14 +40,14 @@ Sendworthy is a Claude Agent Skill that makes Claude write, reply to, and polish
 macOS / Linux:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/sendworthy.git
+git clone https://github.com/Dexter3337/sendworthy.git
 mkdir -p ~/.claude/skills && cp -r sendworthy/sendworthy ~/.claude/skills/sendworthy
 ```
 
 Windows (PowerShell):
 
 ```powershell
-git clone https://github.com/YOUR-USERNAME/sendworthy.git
+git clone https://github.com/Dexter3337/sendworthy.git
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills" | Out-Null
 Copy-Item -Recurse sendworthy\sendworthy "$env:USERPROFILE\.claude\skills\sendworthy"
 ```
